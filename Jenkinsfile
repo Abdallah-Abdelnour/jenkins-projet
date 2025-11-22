@@ -14,9 +14,9 @@ pipeline {
             }
         }
 
-         stage('Test') {
+        stage('Test') {
             steps {
-                echo "Vérification basique du projet HTML/CSS/JS"
+                echo "Vérification basique des fichiers HTML/CSS/JS"
                 sh 'ls -l'
             }
         }
