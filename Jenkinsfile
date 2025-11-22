@@ -17,7 +17,7 @@ pipeline {
          stage('Test') {
             steps {
                 echo "Vérification basique du projet HTML/CSS/JS"
-                sh 'ls -l html'
+                sh 'ls -l'
             }
         }
 
