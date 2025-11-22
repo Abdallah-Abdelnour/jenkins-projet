@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">Nitham</h3>
+
+        <ul>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="our-classes.html">
+              <!-- <i class="fa-solid fa-gear fa-fw"></i> -->
+              <i class="fa-solid fa-chalkboard-user"></i>
+              <span>Our Classes</span>
+            </a>
+          </li>
+          <li>
+            <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="teacher.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Teacher</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="student.html">
+              <!-- <i class="fa-solid fa-diagram-project fa-fw"></i> -->
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Student</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="employees.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Employees</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="our-sall.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Sall</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="payment.html">
+              <!-- <i class="fa-regular fa-file fa-fw"></i> -->
+              <i class="fa-solid fa-wallet"></i>
+              <span>Payment</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="schedule.html">
+              <!-- <i class="fa-regular fa-credit-card fa-fw"></i> -->
+              <i class="fa-solid fa-calendar-days"></i>
+              <span>Schedule</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="content w-full">
+
+        <!-- <h1 class="p-relative">Teacher</h1> -->
+        <!-- <div style="margin-top: 50px;" class="flex-div-2 space-between">
+          <h1 class="p-relative">Teacher</h1>
+          <button class="p-relative" onclick="location.href='teacher-add.html'"
+          style="
+          background-color: rgba(41, 41, 41, 1);
+          height: auto;
+          height: 32px;
+          width: 135px;
+          margin-right: 50px;
+          margin-top: 30px;
+          color: #fff;
+          border: none;
+          border-radius: 7px;
+          ">
+          <i style="
+          background-color: #fff;
+          padding: 2px 3px;
+          margin: auto;
+          border-radius: 50%;
+          border: none;
+          color: rgba(41, 41, 41, 1);
+          margin-right: 8px;
+          " class="fa-solid fa-plus"></i> add <b>Teacher</b></button>
+        </div> -->
+
+        <div class="flex-div-2 space-between">
+          <h1 class="p-relative" style="margin-top: 60px;margin-left: 25px;">Teacher</h1>
+          <div style="margin-top: 50px;text-align: end;">
+            <button class="p-relative" onclick="location.href='teacher-add.html'"
+            style="
+            background-color: rgba(41, 41, 41, 1);
+            height: auto;
+            height: 32px;
+            width: 135px;
+            margin-right: 15px;
+            margin-top: 30px;
+            color: #fff;
+            border: none;
+            border-radius: 7px;
+            ">
+            <i style="
+            background-color: #fff;
+            padding: 2px 3px;
+            margin: auto;
+            border-radius: 50%;
+            border: none;
+            color: rgba(41, 41, 41, 1);
+            margin-right: 8px;
+            " class="fa-solid fa-plus"></i> add <b>Teacher</b></button>
+          <button class="p-relative" onclick="location.href='teacher-edit.html'"
+          style="
+          background-color: rgba(41, 41, 41, 1);
+          height: auto;
+          height: 32px;
+          width: 135px;
+          margin-right: 50px;
+          margin-top: 30px;
+          color: #fff;
+          border: none;
+          border-radius: 7px;
+          ">
+          <i style="
+          background-color: #fff;
+          padding: 2px 3px;
+          margin: auto;
+          border-radius: 50%;
+          border: none;
+          color: rgba(41, 41, 41, 1);
+          margin-right: 8px;
+          " class="fa-solid fa-pen-to-square"></i> edit <b>Teacher</b></button>
+          </div>
+        </div>
+
+
+
+        <div class="pr-25 pl-25 d-flex space-between flex-div-4-4">
+          <!-- Start Latest Post Widget -->
+          <div class="latest-post latest-posttt mt-20 p-20 bg-white rad-10 p-relative">
+            <div class="top d-flex align-center">
+              <img class="avatar mr-15" src="imgs/avatar.png" alt="" />
+              <div class="info">
+                <span class="d-block mb-5 fw-bold">Mr.ishak krama</span>
+              </div>
+            </div>
+            <div class="post-content txt-c-mobile mt-5 mb-5">
+              ENGLISH
+            </div>
+            <div class="post-stats between-flex c-grey">
+              <div>
+                <span>0654638405</span>
+              </div>
+            </div>
+          </div>
+          <!-- End Latest Post Widget -->
+          <!-- Start Latest Post Widget -->
+          <div class="latest-post latest-posttt mt-20 p-20 bg-white rad-10 p-relative">
+            <div class="top d-flex align-center">
+              <img class="avatar mr-15" src="imgs/avatar.png" alt="" />
+              <div class="info">
+                <span class="d-block mb-5 fw-bold">Mr.ishak krama</span>
+              </div>
+            </div>
+            <div class="post-content txt-c-mobile mt-5 mb-5">
+              ENGLISH
+            </div>
+            <div class="post-stats between-flex c-grey">
+              <div>
+                <span>0654638405</span>
+              </div>
+            </div>
+          </div>
+          <!-- End Latest Post Widget -->
+          <!-- Start Latest Post Widget -->
+          <div class="latest-post latest-posttt mt-20 p-20 bg-white rad-10 p-relative">
+            <div class="top d-flex align-center">
+              <img class="avatar mr-15" src="imgs/avatar.png" alt="" />
+              <div class="info">
+                <span class="d-block mb-5 fw-bold">Mr.ishak krama</span>
+              </div>
+            </div>
+            <div class="post-content txt-c-mobile mt-5 mb-5">
+              ENGLISH
+            </div>
+            <div class="post-stats between-flex c-grey">
+              <div>
+                <span>0654638405</span>
+              </div>
+            </div>
+          </div>
+          <!-- End Latest Post Widget -->
+          <!-- Start Latest Post Widget -->
+          <div class="latest-post latest-posttt mt-20 p-20 bg-white rad-10 p-relative">
+            <div class="top d-flex align-center">
+              <img class="avatar mr-15" src="imgs/avatar.png" alt="" />
+              <div class="info">
+                <span class="d-block mb-5 fw-bold">Mr.ishak krama</span>
+              </div>
+            </div>
+            <div class="post-content txt-c-mobile mt-5 mb-5">
+              ENGLISH
+            </div>
+            <div class="post-stats between-flex c-grey">
+              <div>
+                <span>0654638405</span>
+              </div>
+            </div>
+          </div>
+          <!-- End Latest Post Widget -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
