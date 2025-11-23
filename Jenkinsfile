@@ -26,7 +26,7 @@ pipeline {
                 echo "Push sur Docker Hub (on fera la config plus tard)"
             }
         }
-
+/*
         stage('Deploy to AWS') {
             steps {
                 sshagent(['AWS_KEY']) {
@@ -37,6 +37,6 @@ pipeline {
                     '''
                 }
             }
-        }
+        }*/
     }
 }
